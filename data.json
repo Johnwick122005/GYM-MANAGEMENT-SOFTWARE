@@ -1,0 +1,103 @@
+{
+  "members": [
+    {
+      "id": "sarah-khan",
+      "name": "Sarah Khan",
+      "phone": "94567-12345",
+      "status": "expiring",
+      "plan": "6-Month Standard",
+      "expiry": "2025-12-18",
+      "engagement": "5.2/10"
+    },
+    {
+      "id": "mike-singh",
+      "name": "Mike Singh",
+      "phone": "96789-54321",
+      "status": "expired",
+      "plan": "Basic",
+      "expiry": "2025-10-30",
+      "engagement": "2.1/10"
+    },
+    {
+      "id": "priya-patel",
+      "name": "Priya Patel",
+      "phone": "97654-32109",
+      "status": "frozen",
+      "plan": "12-Month Premium",
+      "expiry": "2026-03-15",
+      "engagement": "7.9/10"
+    },
+    {
+      "id": "dae1df19-d20d-4657-920e-284db2e207b1",
+      "firstName": "Prashant",
+      "lastName": "Sharma",
+      "email": "knightriderat450@gmail.com",
+      "phone": "09810577482",
+      "plan": "6-Month Standard (₹1,999)",
+      "startDate": "2015-12-18"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-yoga",
+      "name": "Yoga",
+      "time": "06:00",
+      "trainer": "Rahul",
+      "days": "Mon-Fri",
+      "capacity": 20,
+      "booked": 12
+    },
+    {
+      "id": "class-zumba",
+      "name": "Zumba",
+      "time": "06:30",
+      "trainer": "Maria",
+      "days": "Mon-Fri",
+      "capacity": 20,
+      "booked": 18
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-rahul",
+      "name": "Rahul Kumar",
+      "phone": "94567-12345",
+      "role": "Trainer",
+      "status": "active"
+    },
+    {
+      "id": "staff-sarah",
+      "name": "Sarah Khan",
+      "phone": "97654-32109",
+      "role": "Manager",
+      "status": "active"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-001",
+      "member": "john-doe",
+      "amount": 2999,
+      "status": "paid",
+      "dueDate": "2025-12-15"
+    },
+    {
+      "id": "INV-002",
+      "member": "sarah-khan",
+      "amount": 1999,
+      "status": "due",
+      "dueDate": "2025-12-18"
+    },
+    {
+      "id": "INV-003",
+      "member": "mike-singh",
+      "amount": 2999,
+      "status": "overdue",
+      "dueDate": "2025-12-08"
+    }
+  ],
+  "settings": {
+    "gymName": "My Fitness Gym",
+    "email": "gym@email.com"
+  }
+}

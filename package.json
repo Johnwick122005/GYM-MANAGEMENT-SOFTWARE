@@ -1,0 +1,29 @@
+{
+  "name": "gymflow-backend",
+  "version": "1.0.0",
+  "description": "Lightweight backend for the GymFlow frontend prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "gym",
+    "backend",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "fund": "^1.0.0",
+    "morgan": "^1.10.1",
+    "puppeteer": "^24.33.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
